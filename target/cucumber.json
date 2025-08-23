@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-08-23T05:21:15.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1790734800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Register with multiple data",
+        "description": "",
+        "id": "registration-functionality;register-with-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 196581100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on the registration page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5453300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters \"Avinash Tiwari\" as name",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2498500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters \"avi@123.com\" as email",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1491600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user selects gender",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters \"9027681589\" as mobile number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters \"21-04-2003\" as DOB",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1255700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters \"Selenium\" as subject",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user selects hobbies",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user uploads picture \"C:\\Users\\avina\\Downloads\\image.png\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user enters \"123-SK-UP\" as address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user selects \"Uttar Pradesh\" as state",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user selects \"Agra\" as city",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1016200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user clicks on login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user should sees \"Success\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Functionality",
+    "description": "",
+    "id": "registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/parcticeForm.feature",
+    "tags": []
+  }
+]
