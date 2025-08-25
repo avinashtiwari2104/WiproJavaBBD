@@ -16,7 +16,7 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
-  <dependencyManagement>
+  <!-- <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
@@ -26,22 +26,22 @@
         <scope>import</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement> -->
 
   <dependencies>
 	  
-    <dependency>
+    <!-- <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <scope>test</scope>
-    </dependency>
+    </dependency> -->
     
     <!-- Optionally: parameterized tests support -->
-    <dependency>
+    <!--<dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
-    </dependency>
+    </dependency>-->
     
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 	<dependency>
@@ -94,6 +94,40 @@
     	<scope>test</scope>
 	</dependency>
 	
+	<dependency>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>4.13.2</version>
+      	<scope>test</scope>
+    </dependency>
+	
+	<dependency>
+      	<groupId>io.cucumber</groupId>
+      	<artifactId>messages</artifactId>
+      	<version>19.0.0</version>
+      	<scope>test</scope>
+    </dependency>
+    
+    <!-- Log4j API -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.22.1</version>
+    </dependency>
+
+    <!-- Log4j Core -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.22.1</version>
+    </dependency>
+        
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>8.0.33</version>
+	</dependency>
+
 	    
   </dependencies>
 
@@ -117,6 +151,11 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
+          <configuration>
+			<suiteXmlFiles>
+				<suiteXmlFile>testng.xml</suiteXmlFile>
+			</suiteXmlFiles>
+		</configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>

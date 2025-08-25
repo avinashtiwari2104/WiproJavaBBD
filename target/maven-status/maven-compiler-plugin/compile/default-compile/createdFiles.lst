@@ -1,0 +1,6 @@
+Pages\GuruRegistration.class
+Pages\PracticeForm.class
+utils\DriverFactory.class
+Pages\LoginTP.class
+Pages\RegisterTP.class
+Pages\LoginPage.class

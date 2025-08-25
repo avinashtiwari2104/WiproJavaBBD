@@ -1,0 +1,7 @@
+StepDefinitions\StepDefinitions.class
+StepDefinitions\LoginTPSteps.class
+TestRunners\MyTestRunner.class
+StepDefinitions\GuruRegistrationSteps.class
+StepDefinitions\RegisterTPSteps.class
+Hooks\Hooks.class
+StepDefinitions\PracticeFormSteps.class
