@@ -2,7 +2,7 @@
 <suite name="Cucumber Suite">
   <test name="Cucumber Tests">
     <classes>
-      <class name="TestRunners.MyTestRunner"/>
+      <class name="src.test.resources.Features.practiceForm"/>
     </classes>
   </test>
 </suite>

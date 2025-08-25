@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-08-23T05:21:15.035Z",
+        "start_timestamp": "2025-08-25T12:21:15.533Z",
         "before": [
           {
             "result": {
-              "duration": 1790734800,
+              "duration": 1784040300,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 196581100,
+              "duration": 213018300,
               "status": "passed"
             },
             "match": {
@@ -35,137 +35,230 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3779180100,
+              "status": "passed"
             },
             "line": 5,
             "name": "user is on the registration page",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.PracticeFormSteps.user_is_on_registration_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5453300,
-              "status": "skipped"
+              "duration": 2117321400,
+              "status": "passed"
             },
             "line": 6,
             "name": "user enters \"Avinash Tiwari\" as name",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Avinash Tiwari\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_name(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2498500,
-              "status": "skipped"
+              "duration": 2053671500,
+              "status": "passed"
             },
             "line": 7,
             "name": "user enters \"avi@123.com\" as email",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"avi@123.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_email(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1491600,
-              "status": "skipped"
+              "duration": 2064119800,
+              "status": "passed"
             },
             "line": 8,
             "name": "user selects gender",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.PracticeFormSteps.user_selects_gender()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1004500,
-              "status": "skipped"
+              "duration": 2049905700,
+              "status": "passed"
             },
             "line": 9,
             "name": "user enters \"9027681589\" as mobile number",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9027681589\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_mobile(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2055914000,
+              "status": "passed"
             },
             "line": 10,
             "name": "user enters \"21-04-2003\" as DOB",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"21-04-2003\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_dob(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1255700,
-              "status": "skipped"
+              "duration": 2053491500,
+              "status": "passed"
             },
             "line": 11,
             "name": "user enters \"Selenium\" as subject",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_subject(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1387600,
-              "status": "skipped"
+              "duration": 2060373600,
+              "status": "passed"
             },
             "line": 12,
             "name": "user selects hobbies",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.PracticeFormSteps.user_selects_hobbies()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1000700,
-              "status": "skipped"
+              "duration": 2069631600,
+              "status": "passed"
             },
             "line": 13,
             "name": "user uploads picture \"C:\\Users\\avina\\Downloads\\image.png\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C:\\Users\\avina\\Downloads\\image.png\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_uploads_picture(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2055719700,
+              "status": "passed"
             },
             "line": 14,
             "name": "user enters \"123-SK-UP\" as address",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123-SK-UP\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_enters_address(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2079595400,
+              "status": "passed"
             },
             "line": 15,
             "name": "user selects \"Uttar Pradesh\" as state",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Uttar Pradesh\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_selects_state(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2077809300,
+              "status": "passed"
             },
             "line": 16,
             "name": "user selects \"Agra\" as city",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agra\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_selects_city(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1016200,
-              "status": "skipped"
+              "duration": 2091457300,
+              "status": "passed"
             },
             "line": 17,
             "name": "user clicks on login button",
-            "match": {},
+            "match": {
+              "location": "StepDefinitions.PracticeFormSteps.user_clicks_login_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1000700,
-              "status": "skipped"
+              "duration": 2000300,
+              "status": "passed"
             },
             "line": 18,
             "name": "user should sees \"Success\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.PracticeFormSteps.user_should_see(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ],
@@ -180,7 +273,7 @@
     "description": "",
     "id": "registration-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/parcticeForm.feature",
+    "uri": "file:src/test/resources/Features/practiceForm.feature",
     "tags": []
   }
 ]

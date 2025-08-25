@@ -4,8 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-    features = "src/test/resources/Features/parcticeForm.feature",
-    glue = {"stepDefinitions.PracticeFormSteps","Hooks"},
+    features = "src/test/resources/Features/practiceForm.feature",
+    glue = {"StepDefinitions","Hooks"},
     tags = "@sanity",
     plugin = {
         "pretty",
